@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Store test with tags","This test will provide an error code of 404 when user tries to access an invalid resource","SUCCESS","2023-06-06T12:57:50.047+01:00[Europe/London]","0.0","0.12"

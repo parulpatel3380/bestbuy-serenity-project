@@ -1,0 +1,8 @@
+com\bestbuy\testbase\ProductTestBase.class
+com\bestbuy\bestbuysinfo\StoreCRUD.class
+com\bestbuy\bestbuysinfo\StoreTestWithTags.class
+com\bestbuy\bestbuysinfo\ProductCRUD.class
+resources\testdata\StoreTestBase.class
+com\bestbuy\testbase\StoreTestBase.class
+com\bestbuy\bestbuysinfo\ProductTestWithTags.class
+resources\testdata\ProductTestBase.class

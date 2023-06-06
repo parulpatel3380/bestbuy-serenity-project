@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.bestbuysinfo.ProductTestWithTags
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 2.957 sec <<< FAILURE! - in com.bestbuy.bestbuysinfo.ProductTestWithTags
+invalidMethod(com.bestbuy.bestbuysinfo.ProductTestWithTags)  Time elapsed: 2.665 sec  <<< ERROR!
+java.util.EmptyStackException: null
+	at java.util.Stack.peek(Stack.java:102)
+	at net.thucydides.core.steps.BaseStepListener.getCurrentStep(BaseStepListener.java:569)
+	at net.thucydides.core.steps.BaseStepListener.addRestQuery(BaseStepListener.java:1006)
+	at net.thucydides.core.steps.BaseStepListener.recordRestQuery(BaseStepListener.java:1001)
+	at net.serenitybdd.rest.utils.RestReportingHelper.registerCall(RestReportingHelper.java:79)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.execute(RequestSpecificationDecorated.java:263)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.post(RequestSpecificationDecorated.java:74)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.post(RequestSpecificationDecorated.java:27)
+	at com.bestbuy.bestbuysinfo.ProductTestWithTags.invalidMethod(ProductTestWithTags.java:36)
+
+verifyIfTheStatusCodeIs200(com.bestbuy.bestbuysinfo.ProductTestWithTags)  Time elapsed: 0.262 sec  <<< ERROR!
+java.util.EmptyStackException: null
+	at java.util.Stack.peek(Stack.java:102)
+	at net.thucydides.core.steps.BaseStepListener.getCurrentStep(BaseStepListener.java:569)
+	at net.thucydides.core.steps.BaseStepListener.addRestQuery(BaseStepListener.java:1006)
+	at net.thucydides.core.steps.BaseStepListener.recordRestQuery(BaseStepListener.java:1001)
+	at net.serenitybdd.rest.utils.RestReportingHelper.registerCall(RestReportingHelper.java:79)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.execute(RequestSpecificationDecorated.java:263)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:48)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:38)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:27)
+	at com.bestbuy.bestbuysinfo.ProductTestWithTags.verifyIfTheStatusCodeIs200(ProductTestWithTags.java:22)
+
+inCorrectResource(com.bestbuy.bestbuysinfo.ProductTestWithTags)  Time elapsed: 0.029 sec  <<< ERROR!
+java.util.EmptyStackException: null
+	at java.util.Stack.peek(Stack.java:102)
+	at net.thucydides.core.steps.BaseStepListener.getCurrentStep(BaseStepListener.java:569)
+	at net.thucydides.core.steps.BaseStepListener.addRestQuery(BaseStepListener.java:1006)
+	at net.thucydides.core.steps.BaseStepListener.recordRestQuery(BaseStepListener.java:1001)
+	at net.serenitybdd.rest.utils.RestReportingHelper.registerCall(RestReportingHelper.java:79)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.execute(RequestSpecificationDecorated.java:263)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:48)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:27)
+	at com.bestbuy.bestbuysinfo.ProductTestWithTags.inCorrectResource(ProductTestWithTags.java:50)
+
